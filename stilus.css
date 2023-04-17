@@ -1,0 +1,44 @@
+html  {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+}
+
+header {
+    background-color: rgb(86, 160, 148);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+nav > a:hover {
+    font-size: 2rem;
+    color: rgb(247, 247, 247);
+}
+img {
+    max-width: 40%;
+}
+
+footer{
+    background-color: rgb(86, 160, 148);
+    height: 50px;
+    text-align: center;
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: rgb(202, 202, 40);
+}
+
+.divisor {
+    max-width: 80%;
+    margin: 0 auto;
+}
